@@ -1,0 +1,32 @@
+@import './base.css';
+
+#app {
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: rgb(211, 211, 211);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    transform: translateY(-3px);
+    background-color: hsla(0, 0%, 0%, 0.384);
+    box-shadow: 0px 3px 0px 0px #ff7777;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: block;
+    
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 0;
+  }
+}

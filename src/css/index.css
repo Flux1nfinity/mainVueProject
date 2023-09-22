@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.home-content {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(270deg, #9fc6d6, #2f4f4f);
+}
+.home-content h2 {
+    transform: translateY(30vh);
+    letter-spacing: 15px;
+    text-align: center;
+    font-size: 3vw;
+    color: #ffffff;
+}
+.home-content p {
+    transform: translateY(31vh);
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 1vw;
+    color: #ffffff;
+}
+.get-started {
+  transform: translate(42vw, 40vh);
+  align-items: center;
+  appearance: none;
+  background-color: rgba(51, 51, 51, 0.699);
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(20, 20, 20, 0.596) 0 2px 4px,rgba(20, 20, 20, 0.596) 0 0px 13px -3px, rgba(20, 20, 20, 0.5) 0 0px 0 inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  letter-spacing: 3px;
+  font-family: "JetBrains Mono",monospace;
+  width: 15vw;
+  height: 5vh;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s ease-in-out,transform .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 1.25vw;
+}
+
+.get-started:focus {
+  box-shadow: rgba(20, 20, 20, 0.9) 0 2px 4px, rgba(20, 20, 20, 0.2) 0 0px 9px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
+}
+
+.get-started:hover {
+  box-shadow: rgba(20, 20, 20, 0.9) 0 4px 8px, rgba(20, 20, 20, 0.2) 0 0px 9px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
+  transform: translate(42vw, 39.9vh);
+}
+
+.get-started:active {
+  box-shadow:rgba(20, 20, 20, 0.5) 0 3px 7px inset;
+  transform: translate(42vw, 40vh);
+}
+
+.subscription-tiers {
+  background-color: #ffffff;
+  display: flex;
+  width: 100vw;
+  height: 75vh;
+  box-shadow: rgba(20, 20, 20, 0.8) 16px 16px 16px,rgba(20, 20, 20, 0.8) 42px 0px 42px 0px, rgba(201, 201, 201, 0.5) 0px 0px 0px inset;
+}
+.tier-1{
+  margin: 0px 135px;
+  transform: translateY(100px);
+  width: 400px;
+  height: 600px;
+  background: linear-gradient(210deg, #cfcfdf,#8f8f9f);
+  box-shadow: rgba(20, 20, 20, 0.596) 0 4px 8px,rgba(20, 20, 20, 0.596) 0 0px 13px -3px, rgba(201, 201, 201, 0.5) 0px 0px 0px inset;
+}
+.tier-1 h1{
+  padding: 50% 0px;
+  text-align: center;
+  letter-spacing: 8px;
+  transform: rotateZ(90deg);
+  font-size: 128px;
+  cursor: default;
+}
+.tier-2{
+  margin: 0px 135px;
+  transform: translateY(100px);
+  width: 400px;
+  height: 600px;
+  background: linear-gradient(210deg, #db8a8a,#a55b5b);
+  box-shadow: rgba(20, 20, 20, 0.596) 0 4px 8px,rgba(20, 20, 20, 0.596) 0 0px 13px -3px, rgba(201, 201, 201, 0.5) 0px 0px 0px inset;
+}
+.tier-2 h1{
+  padding: 50% 0px;
+  text-align: center;
+  letter-spacing: 8px;
+  transform: rotateZ(90deg);
+  font-size: 128px;
+  cursor: default;
+}
+.tier-3{
+  margin: 0px 135px;
+  transform: translateY(100px);
+  width: 400px;
+  height: 600px;
+  background: linear-gradient(210deg, #dbcf8a,#bdad52);
+  box-shadow: rgba(20, 20, 20, 0.596) 0 4px 8px,rgba(20, 20, 20, 0.596) 0 0px 13px -3px, rgba(201, 201, 201, 0.5) 0px 0px 0px inset;
+}
+.tier-3 h1{
+  padding: 50% 0px;
+  text-align: center;
+  letter-spacing: 8px;
+  transform: rotateZ(90deg);
+  font-size: 128px;
+  cursor: default;
+}

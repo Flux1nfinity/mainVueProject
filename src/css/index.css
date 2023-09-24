@@ -41,28 +41,43 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+.home-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/toolbox-2645700.jpg);
+  background-position: 35vw;
+  background-size: contain;
+}
 .home-content {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(270deg, #9fc6d6, #2f4f4f);
+    background-image: linear-gradient(270deg,  rgba(20, 20, 20, 0) 0%, rgba(20, 20, 20, 0.5) 65%, #282828 65%,#282828 100%);
+}
+.home-content h1 {
+  padding-left: 2%;
+  transform: translateY(30vh);
+  letter-spacing: 0px;
+  text-align: left;
+  font-size: 1.25vw;
+  color: #ffffff;
 }
 .home-content h2 {
+    padding-left: 2%;
     transform: translateY(30vh);
-    letter-spacing: 15px;
-    text-align: center;
-    font-size: 3vw;
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 2.4vw;
     color: #ffffff;
 }
 .home-content p {
-    transform: translateY(31vh);
-    letter-spacing: 5px;
+    transform: translate( -32.8vw, 34vh);
+    letter-spacing: 0px;
     text-align: center;
-    font-size: 1vw;
+    font-size: 0.8vw;
     color: #ffffff;
 }
 .get-started {
-  transform: translate(42vw, 40vh);
+  transform: translate(9.3vw, 40vh);
   align-items: center;
   appearance: none;
   background-color: rgba(51, 51, 51, 0.699);
@@ -101,12 +116,12 @@ table {
 
 .get-started:hover {
   box-shadow: rgba(20, 20, 20, 0.9) 0 4px 8px, rgba(20, 20, 20, 0.2) 0 0px 9px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
-  transform: translate(42vw, 39.9vh);
+  transform: translate(9.3vw, 39.9vh);
 }
 
 .get-started:active {
   box-shadow:rgba(20, 20, 20, 0.5) 0 3px 7px inset;
-  transform: translate(42vw, 40vh);
+  transform: translate(9.3vw, 40vh);
 }
 
 .subscription-tiers {
@@ -117,50 +132,131 @@ table {
   box-shadow: rgba(20, 20, 20, 0.8) 16px 16px 16px,rgba(20, 20, 20, 0.8) 42px 0px 42px 0px, rgba(201, 201, 201, 0.5) 0px 0px 0px inset;
 }
 .tier-1{
-  margin: 0px 135px;
+  margin: 0px 24px;
   transform: translateY(100px);
-  width: 400px;
+  width: 30%;
   height: 600px;
-  background: linear-gradient(210deg, #cfcfdf,#8f8f9f);
-  box-shadow: rgba(20, 20, 20, 0.596) 0 4px 8px,rgba(20, 20, 20, 0.596) 0 0px 13px -3px, rgba(201, 201, 201, 0.5) 0px 0px 0px inset;
+  background-color: #ffffff;
+  box-shadow: rgba(20, 20, 20, 0.596) 0 0px 0px,rgba(20, 20, 20, 0.596) 4px 0px 0px 0px, rgba(201, 201, 201, 0.5) 0px 0px 0px inset;
 }
 .tier-1 h1{
-  padding: 50% 0px;
+  padding: 0px 0px;
   text-align: center;
-  letter-spacing: 8px;
-  transform: rotateZ(90deg);
-  font-size: 128px;
+  font-size: 40px;
+  font-weight: lighter;
+  color: black;
+  cursor: default;
+}
+.tier-1 h2{
+  padding: 180px 0px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: lighter;
+  color: black;
+  cursor: default;
+}
+.tier-1 h3{
+  padding: 0px 0px;
+  transform: translateY(-185px);
+  text-align: center;
+  font-size: 32px;
+  color: black;
+  cursor: pointer;
+}
+.tier-1 ul{
+  padding: 30px 0px;
+  list-style: circle;
+  cursor: default;
+}
+.tier-1 li{
+  font-size: 20px;
+  font-weight: lighter;
+  color: black;
   cursor: default;
 }
 .tier-2{
-  margin: 0px 135px;
+  margin: 0px 24px;
   transform: translateY(100px);
-  width: 400px;
+  width: 30%;
   height: 600px;
-  background: linear-gradient(210deg, #db8a8a,#a55b5b);
-  box-shadow: rgba(20, 20, 20, 0.596) 0 4px 8px,rgba(20, 20, 20, 0.596) 0 0px 13px -3px, rgba(201, 201, 201, 0.5) 0px 0px 0px inset;
+  background-color: #ffffff;
+  box-shadow: rgba(20, 20, 20, 0.596) 0 0px 0px,rgba(20, 20, 20, 0.596) 4px 0px 0px 0px, rgba(201, 201, 201, 0.5) 0px 0px 0px inset;
 }
 .tier-2 h1{
-  padding: 50% 0px;
+  padding: 0px 0px;
   text-align: center;
-  letter-spacing: 8px;
-  transform: rotateZ(90deg);
-  font-size: 128px;
+  font-size: 40px;
+  font-weight: lighter;
+  color: black;
+  cursor: default;
+}
+.tier-2 h2{
+  padding: 120px 0px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: lighter;
+  color: black;
+  cursor: default;
+}
+.tier-2 h3{
+  padding: 0px 0px;
+  transform: translateY(-125px);
+  text-align: center;
+  font-size: 32px;
+  color: black;
+  cursor: pointer;
+}
+.tier-2 ul{
+  padding: 30px 0px;
+  list-style: circle;
+  cursor: default;
+}
+.tier-2 li{
+  font-size: 20px;
+  font-weight: lighter;
+  color: black;
   cursor: default;
 }
 .tier-3{
-  margin: 0px 135px;
+  margin: 0px 24px;
   transform: translateY(100px);
-  width: 400px;
+  width: 30%;
   height: 600px;
-  background: linear-gradient(210deg, #dbcf8a,#bdad52);
-  box-shadow: rgba(20, 20, 20, 0.596) 0 4px 8px,rgba(20, 20, 20, 0.596) 0 0px 13px -3px, rgba(201, 201, 201, 0.5) 0px 0px 0px inset;
+  background-color: #ffffff;
+  box-shadow: rgba(20, 20, 20, 0.596) 0 0px 0px,rgba(20, 20, 20, 0.596) 0 0px 0px 0px, rgba(201, 201, 201, 0.5) 0px 0px 0px inset;
 }
 .tier-3 h1{
-  padding: 50% 0px;
+  padding: 0px 0px;
   text-align: center;
-  letter-spacing: 8px;
-  transform: rotateZ(90deg);
-  font-size: 128px;
+  font-size: 40px;
+  font-weight: lighter;
+  color: black;
+  cursor: default;
+}
+.tier-3 h2{
+  padding: 95px 0px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: lighter;
+  color: black;
+  cursor: default;
+}
+.tier-3 h3{
+  padding: 0px 0px;
+  transform: translateY(-100px);
+  text-align: center;
+  font-size: 32px;
+  color: black;
+  cursor: pointer;
+}
+.tier-3 ul{
+  padding: 30px 0px;
+  list-style: circle;
+  cursor: default;
+}
+.tier-3 li{
+  font-size: 20px;
+  font-weight: lighter;
+  color: black;
   cursor: default;
 }

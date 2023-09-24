@@ -125,11 +125,12 @@ table {
 }
 
 .subscription-tiers {
+  transform: translateY(-45px);
+  box-shadow: rgba(0, 0, 0, 0.9) 0 0px 8px 0px inset;
   background-color: #ffffff;
   display: flex;
   width: 100vw;
-  height: 75vh;
-  box-shadow: rgba(20, 20, 20, 0.8) 16px 16px 16px,rgba(20, 20, 20, 0.8) 42px 0px 42px 0px, rgba(201, 201, 201, 0.5) 0px 0px 0px inset;
+  height: 800px;
 }
 .tier-1{
   margin: 0px 24px;
@@ -259,4 +260,21 @@ table {
   font-weight: lighter;
   color: black;
   cursor: default;
+}
+.footer-section{
+  margin-top: -84px;
+  width: 100vw;
+  height: 84px;
+  background-color: #282828;
+}
+.footer-info1, .footer-info2{
+  transform: translate(16px, 20px);
+  text-align: left;
+}
+.footer-info3, .footer-info4{
+  transform: translate(-30px, -28px);
+  text-align: right;
+}
+.home-logo{
+  transform: translate(50vw, -18px);
 }

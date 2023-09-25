@@ -192,7 +192,7 @@ table {
   cursor: default;
 }
 .tier-2 h2{
-  padding: 90px 0px;
+  padding: 84px 0px;
   text-align: center;
   font-size: 32px;
   font-weight: lighter;
@@ -201,7 +201,7 @@ table {
 }
 .tier-2 h3{
   padding: 0px 0px;
-  transform: translateY(-96px);
+  transform: translateY(-84px);
   text-align: center;
   font-size: 32px;
   color: black;
@@ -235,7 +235,7 @@ table {
   cursor: default;
 }
 .tier-3 h2{
-  padding: 70px 0px;
+  padding: 52px 0px;
   text-align: center;
   font-size: 32px;
   font-weight: lighter;
@@ -244,7 +244,7 @@ table {
 }
 .tier-3 h3{
   padding: 0px 0px;
-  transform: translateY(-88px);
+  transform: translateY(-52px);
   text-align: center;
   font-size: 32px;
   color: black;
